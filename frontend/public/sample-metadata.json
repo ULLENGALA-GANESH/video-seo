@@ -1,0 +1,51 @@
+{
+  "model": "llama3.2:3b",
+  "titles": [
+    {
+      "text": "Capturing Alpine Landscapes with Long Lenses",
+      "reason": "The phrase 'separate one ridge from the next' makes this useful for landscape photographers.",
+      "segment_index": 2
+    },
+    {
+      "text": "Waiting for the Perfect Shot in Alpine Photography",
+      "reason": "The phrase 'alpine photography rewards waiting' makes this useful for photographers planning a dawn shoot.",
+      "segment_index": 5
+    }
+  ],
+  "descriptions": [
+    {
+      "text": "This video guide explores the techniques and tools used in alpine photography, from capturing side light to using long lenses to separate ridges.",
+      "reason": "The phrase 'separate one ridge from the next' makes this useful for landscape photographers.",
+      "segment_index": 2
+    }
+  ],
+  "tags": [
+    {
+      "text": "alpine photography",
+      "reason": "The phrase 'alpine photography rewards waiting' makes this useful for photographers planning a dawn shoot.",
+      "segment_index": 5
+    },
+    {
+      "text": "long lens",
+      "reason": "The phrase 'separate one ridge from the next' makes this useful for landscape photographers.",
+      "segment_index": 2
+    },
+    {
+      "text": "side light",
+      "reason": "The phrase 'side light catches the limestone edges' makes this useful for photographers looking for a specific lighting effect.",
+      "segment_index": 1
+    }
+  ],
+  "chapters": [
+    {
+      "text": "Understanding Light in Alpine Photography",
+      "reason": "The phrase 'side light catches the limestone edges' makes this useful for photographers looking for a specific lighting effect.",
+      "segment_index": 1
+    },
+    {
+      "text": "Mastering the Art of Alpine Photography",
+      "reason": "The phrase 'alpine photography rewards waiting' makes this useful for photographers planning a dawn shoot.",
+      "segment_index": 5
+    }
+  ]
+}

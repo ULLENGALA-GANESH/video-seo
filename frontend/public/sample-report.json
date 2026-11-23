@@ -1,0 +1,133 @@
+{
+  "id": "sample",
+  "title": "A field guide to alpine photography",
+  "status": "completed",
+  "stage": "Completed",
+  "source_type": "video",
+  "created_at": "2026-11-22T08:00:00Z",
+  "updated_at": "2026-11-22T08:00:00Z",
+  "duration_seconds": 64.172,
+  "progress": 100,
+  "error": null,
+  "transcript": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow. For alpine photography, side light is the first thing I look for. Side light catches the limestone edges while the rock behind them stays dark. A long lens helps separate one ridge from the next. I keep the nearest pine trees in the frame so the layers have a sense of scale. Watch the low cloud. When low cloud moves through the valley, the middle ridge disappears for a moment and the outline of the summit becomes cleaner. Once the side light reaches the highest peak, I check the histogram. I lower the exposure just enough to hold detail in the brightest patch of limestone. Before I leave, I make one wider frame. Alpine photography rewards waiting. A long lens describes the mountain, but the wider view shows what the morning felt like.",
+  "segments": [
+    {
+      "text": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0,
+      "end_seconds": 10.538
+    },
+    {
+      "text": "For alpine photography, side light is the first thing I look for. Side light catches the limestone edges while the rock behind them stays dark.",
+      "start_seconds": 10.538,
+      "end_seconds": 21.34
+    },
+    {
+      "text": "A long lens helps separate one ridge from the next. I keep the nearest pine trees in the frame so the layers have a sense of scale.",
+      "start_seconds": 21.34,
+      "end_seconds": 30.274
+    },
+    {
+      "text": "Watch the low cloud. When low cloud moves through the valley, the middle ridge disappears for a moment and the outline of the summit becomes cleaner.",
+      "start_seconds": 30.274,
+      "end_seconds": 40.152
+    },
+    {
+      "text": "Once the side light reaches the highest peak, I check the histogram. I lower the exposure just enough to hold detail in the brightest patch of limestone.",
+      "start_seconds": 40.152,
+      "end_seconds": 51.15
+    },
+    {
+      "text": "Before I leave, I make one wider frame. Alpine photography rewards waiting. A long lens describes the mountain, but the wider view shows what the morning felt like.",
+      "start_seconds": 51.15,
+      "end_seconds": 64.172
+    }
+  ],
+  "keywords": [
+    {
+      "phrase": "alpine photography",
+      "score": 100,
+      "occurrences": 3,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "side light",
+      "score": 78,
+      "occurrences": 3,
+      "evidence": "For alpine photography, side light is the first thing I look for. Side light catches the limestone edges while the rock behind them stays dark.",
+      "start_seconds": 10.538
+    },
+    {
+      "phrase": "light",
+      "score": 66,
+      "occurrences": 4,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "long lens",
+      "score": 65,
+      "occurrences": 2,
+      "evidence": "A long lens helps separate one ridge from the next. I keep the nearest pine trees in the frame so the layers have a sense of scale.",
+      "start_seconds": 21.34
+    },
+    {
+      "phrase": "low cloud",
+      "score": 59,
+      "occurrences": 2,
+      "evidence": "Watch the low cloud. When low cloud moves through the valley, the middle ridge disappears for a moment and the outline of the summit becomes cleaner.",
+      "start_seconds": 30.274
+    },
+    {
+      "phrase": "ridge",
+      "score": 59,
+      "occurrences": 3,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "photography starts",
+      "score": 50,
+      "occurrences": 1,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "photography rewards",
+      "score": 50,
+      "occurrences": 1,
+      "evidence": "Before I leave, I make one wider frame. Alpine photography rewards waiting. A long lens describes the mountain, but the wider view shows what the morning felt like.",
+      "start_seconds": 51.15
+    },
+    {
+      "phrase": "summit",
+      "score": 47,
+      "occurrences": 2,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "catches",
+      "score": 47,
+      "occurrences": 2,
+      "evidence": "Alpine photography starts before the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "valley",
+      "score": 47,
+      "occurrences": 2,
+      "evidence": "re the summit catches light. I walk the ridge in blue hour and choose one camera position while the valley is still in shadow.",
+      "start_seconds": 0.0
+    },
+    {
+      "phrase": "limestone",
+      "score": 47,
+      "occurrences": 2,
+      "evidence": "For alpine photography, side light is the first thing I look for. Side light catches the limestone edges while the rock behind them stays dark.",
+      "start_seconds": 10.538
+    }
+  ],
+  "word_count": 160,
+  "keyword_count": 12
+}

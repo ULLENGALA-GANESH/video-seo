@@ -1,0 +1,111 @@
+.channel-page {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.channel-panel {
+  margin: 18px 0;
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid var(--line, #d9ded5);
+  border-radius: 16px;
+  background: var(--surface, #fff);
+}
+.channel-heading,
+.channel-actions,
+.channel-video {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.channel-heading,
+.channel-video {
+  justify-content: space-between;
+}
+.channel-heading h2 {
+  margin: 0;
+}
+.channel-heading {
+  margin-bottom: 18px;
+}
+.channel-panel form {
+  max-width: 720px;
+  margin-top: 20px;
+}
+.channel-panel form,
+.channel-panel fieldset {
+  display: grid;
+  gap: 15px;
+}
+.channel-panel fieldset {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.channel-panel select {
+  font: inherit;
+  padding: 10px;
+  color: inherit;
+  background: inherit;
+  border: 1px solid var(--line, #bcc4ba);
+  border-radius: 8px;
+}
+.channel-controls,
+.channel-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 16px;
+}
+.channel-stats dd {
+  font-size: 1.65rem;
+  font-weight: 650;
+  margin: 4px 0 16px;
+}
+.channel-stats dt,
+.channel-video small {
+  font-size: 0.85rem;
+}
+.channel-video {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line, #d9ded5);
+}
+.channel-video small {
+  display: block;
+}
+.channel-table {
+  overflow: auto;
+}
+.channel-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  text-align: left;
+}
+.channel-table caption {
+  text-align: left;
+  padding: 10px 0;
+}
+.channel-draft-options {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.channel-draft-options h3 {
+  margin: 0;
+}
+.channel-draft-options .btn {
+  justify-self: start;
+}
+.channel-draft-options summary {
+  cursor: pointer;
+}
+.channel-draft-options time {
+  font-variant-numeric: tabular-nums;
+}
+.channel-table td,
+.channel-table th {
+  padding: 8px;
+  border-bottom: 1px solid var(--line, #d9ded5);
+}

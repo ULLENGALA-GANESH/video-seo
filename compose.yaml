@@ -1,0 +1,47 @@
+services:
+  app:
+    build: .
+    env_file:
+      - path: ./backend/.env
+        required: false
+    ports:
+      - "127.0.0.1:${FRAMEWISE_PORT:-8000}:8000"
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      DB_NAME: framewise
+      INLINE_WORKER: "true"
+    volumes:
+      - media:/app/media
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/ready', timeout=3).close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 8
+      start_period: 15s
+    depends_on:
+      mongo:
+        condition: service_healthy
+  ollama:
+    image: ollama/ollama
+    profiles: ["ai"]
+    network_mode: "service:app"
+    environment:
+      OLLAMA_HOST: 127.0.0.1:11434
+      OLLAMA_NO_CLOUD: "1"
+    volumes:
+      - models:/root/.ollama
+    depends_on:
+      - app
+  mongo:
+    image: mongo:8.0
+    volumes:
+      - database:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "quit(db.adminCommand('ping').ok ? 0 : 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+volumes:
+  models:
+  media:
+  database:
